@@ -262,12 +262,12 @@ footer .glyphicon {
   {
     display:none;
   }
-  #right_col{
+  #left_col{
     width: 80 !important;
     float: none !important;
     margin-left:2%; 
   }
-  #left_col{
+  #right_col{
     display: none;
   }
   #About hr {
@@ -292,12 +292,12 @@ footer .glyphicon {
   {
     display:none;
   }
-  #right_col{
+  #left_col{
     width: 80 !important;
     float: none !important;
     margin-left:2%; 
   }
-  #left_col{
+  #right_col{
     display: none;
   }
 
