@@ -264,7 +264,9 @@ footer .glyphicon {
   }
  
   #left_col{
-    display: none;
+    width: 100% !important;
+    float: none !important;
+    margin-left:2%; 
   } 
   #About hr {
     display: none;
