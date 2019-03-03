@@ -1,0 +1,314 @@
+html{
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* H1 and H2 styles */
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:300%;
+  text-align:center;
+}
+
+h3{
+  color:#255C69;
+  font-size: 1.5em;
+}
+
+hr { 
+  color: white;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.vl {
+  border-left: 6px dotted purple;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 150%;
+}
+
+.jumbotron.text-center
+{
+
+  background-color: #E6E6FA;
+
+}
+/* Image styles */
+.jumbotron.text-center img{
+margin-right: 5%;
+margin-left: 5%;
+margin-top: 10%;
+
+}
+
+.carousel-caption h3, p
+{
+  color: black;
+ 
+}
+
+#Worksample
+{
+  padding: 5%;
+}
+
+#Worksample h3 {
+  margin-left: 45%;
+  margin-bottom: 5%;
+  
+}
+
+
+/* Navagation styles */
+
+.navbar {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  background-color: #4f3558;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  padding:20px;
+}
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+
+/*Paragraph styles  */
+p {
+  font-size:1.2em;
+  padding:1em;
+  margin-left: 43%;
+}
+
+
+/* Styles for About section */
+#About {
+  margin-top: 5em;
+}
+
+#About hr 
+{
+  color: white;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 44%;
+  margin-right: 45%;
+  border-style: inset;
+  border-width: 1px;
+
+}
+
+#About h3{
+  margin-left: 45%;
+}
+
+#About p::first-letter{
+  font-weight: bold;
+}
+
+#wrap {
+   width:900px;
+   margin:0 auto;
+}
+
+#left_col {
+   float:left;
+   width:400px;
+   margin-right: 5%;
+   margin-bottom: 20%;
+}
+
+#right_col {
+   float:right;
+   width:400px;
+   margin-bottom: 20%;
+}
+
+/* Styles for Contact and Footer */
+
+#Contact a{
+  color: pink;
+  text-decoration: none;
+}
+
+#Contact a:hover{
+  color: black;
+}
+
+#Footer{
+  background-color: #4f3558;
+}
+
+.fa.fa-facebook
+{
+  color:  #E6E6FA;
+}
+
+.fa.fa-instagram
+{
+  color:  #E6E6FA;
+}
+
+.fa.fa-linkedin
+{
+  color:  #E6E6FA;
+}
+
+.fa.fa-github
+{
+  color:  #E6E6FA;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+footer{
+  margin-top: 40px;
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4511e;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  img{
+    display:none;
+  }
+  .vl{
+    display:none;
+  }
+  .carousel-caption
+  {
+    display:none;
+  }
+  #right_col{
+    width: 50% !important;
+    float: none !important;
+    margin-left:5%; 
+  }
+  #left_col{
+    width: 50% !important;
+    float: none !important;
+    margin-left:5%; 
+  }
+  #About hr {
+    display: none;
+  }
+  #About p{
+    margin-right: 28%;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+  img{
+    display:none;
+  }
+  .vl{
+    display:none;
+  }
+  .carousel-caption
+  {
+    display:none;
+  }
+
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
