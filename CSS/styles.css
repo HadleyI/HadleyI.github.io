@@ -265,12 +265,12 @@ footer .glyphicon {
   #right_col{
     width: 50% !important;
     float: none !important;
-    margin-left:5%; 
+    margin-left:2%; 
   }
   #left_col{
     width: 50% !important;
     float: none !important;
-    margin-left:5%; 
+    margin-left:2%; 
   }
   #About hr {
     display: none;
