@@ -263,12 +263,12 @@ footer .glyphicon {
     display:none;
   }
   #right_col{
-    width: 30% !important;
+    width: 10% !important;
     float: none !important;
     margin-left:2%; 
   }
   #left_col{
-    width: 30% !important;
+    width: 10% !important;
     float: none !important;
     margin-left:2%; 
   }
